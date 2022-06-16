@@ -30,7 +30,6 @@ body{
 }
 
 .column img{
-    /* width: 100%; */
     object-fit: cover;
     height: 215.8px;
     margin-bottom: 10px;
@@ -54,7 +53,6 @@ body{
 }
 
 
-
 .inscritos{
     display: flex;
     justify-content: space-between;
@@ -67,15 +65,21 @@ body{
     justify-content: center;
 }
 
-
-.inscrever-se a{
-    text-decoration: none;
-    color: #fff;
+.button button{
     background-color: #CC0000;
-    border: 1px solid #CC0000;
-    padding: 7px;
-    font-size: 14px;
-    border-radius: 3px;
+    padding: 8px 14px;
+    margin: 0px 4px;
+    border: none;
+    color: #ffffff;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button button:hover{
+    background-color: #e44529ea;
 }
 
 .canal{
@@ -95,11 +99,9 @@ body{
     font-weight: 300;
 }
 
-
 .propaganda{
     margin-bottom: 15px;
 }
-
 
 .propaganda img{
     width: 100%;
@@ -114,7 +116,6 @@ body{
     margin-bottom: 15px;
 }
 
-
 .textos-laterais h1{
     font-size: 14px;
     width: 100%;
@@ -124,6 +125,7 @@ body{
 .textos-laterais p{
     font-size: 11px;
     margin-bottom: 5px;
+    color: #60647B;
 }
 
 .secao-lateral{
@@ -138,8 +140,16 @@ body{
     .propaganda img{
         max-width: 270px;
     }
-    .inscrever-se a{
+    .button{
         margin-right: 3px;
+    }
+
+    .button button{
+        padding: 8px 10px;
+        font-size: 11px;
+    }
+    .canal a{
+        font-size: 14px;
     }
 
     .container{
