@@ -80,6 +80,7 @@ main{
 
 .button button:hover{
     background-color: #e44529ea;
+    color: #030303;
 }
 
 .canal{
@@ -90,6 +91,11 @@ main{
     text-decoration: none;
     color: #030303;
     font-weight: 700;
+    transition: 0.3s;
+}
+
+.canal a:hover{
+    color: #CC0000;
 }
 
 
